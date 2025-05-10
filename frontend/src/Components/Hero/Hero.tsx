@@ -1,6 +1,6 @@
-import React from 'react'
-import hero from './hero.png'
-import { Link } from 'react-router-dom'
+import React from "react";
+import hero from "./hero.png";
+import { Link } from "react-router-dom";
 
 interface Props {}
 
@@ -13,10 +13,14 @@ const Hero = (props: Props) => {
             Financial data with no news.
           </h1>
           <p className="text-2xl text-center text-gray-400 lg:max-w-md lg:text-left">
-            Search relevant financial documents without fear mongering and fake news.
+            Search relevant financial documents without fear mongering and fake
+            news.
           </p>
           <div className="mx-auto lg:mx-0">
-            <Link to="/search" className="py-5 px-10 text-2xl font-bold text-white bg-lightGreen rounded lg:py-4 hover:opacity-70">
+            <Link
+              to="/search"
+              className="py-5 px-10 text-2xl font-bold text-white bg-lightGreen rounded lg:py-4 hover:opacity-70"
+            >
               Get Started
             </Link>
           </div>
@@ -26,7 +30,7 @@ const Hero = (props: Props) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

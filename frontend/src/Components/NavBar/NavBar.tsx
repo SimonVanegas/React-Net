@@ -1,6 +1,6 @@
-import React from 'react'
-import logo from './logo.png'
-import { Link } from 'react-router-dom'
+import React from "react";
+import logo from "./logo.png";
+import { Link } from "react-router-dom";
 
 interface Props {}
 
@@ -29,7 +29,7 @@ const NavBar = (props: Props) => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
